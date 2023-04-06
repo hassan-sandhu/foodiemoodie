@@ -4,6 +4,7 @@ import Login from './screens/Login'
 import Signup from "./screens/Signup";
 import Welcome from "./screens/Welcome";
 import Menu from "./screens/Menu"
+import app from "./firebase";
 export default function App(){
   const Stack = createNativeStackNavigator();
   return(
